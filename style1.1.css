@@ -1,0 +1,88 @@
+body {
+    background: #000;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 1000px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.container {
+    text-align: center;
+}
+#topleft {
+    background: rgba(255, 115, 0, 0.2);
+    width: 49%;
+    height: 200px;
+    float: left;
+    text-align: left;
+    border-radius: 10% 10% 0 0;
+    
+}
+#topright {
+    background: rgba(255, 115, 0, 1);
+    width: 49%;
+    height: 180px;
+    float: right;
+    text-align: right;
+    border: 10px dotted rgb(196, 32, 32);
+    border-radius: 10% 10% 0 0;
+}
+#onlycenter {
+    display: inline-block;
+    background: rgba(179, 255, 0, 1);
+    width: 98.5%;
+    height: 180px;    
+    border: 10px solid rgb(255, 255, 255);
+}
+.botleft {
+    display: inline-block;
+    background: hsl(215, 57%, 50%);
+    width: 33.13%;
+    height: 200px;
+    text-align: left;
+   }
+.botmiddle {    
+    display: inline-block;
+    background: hsl(215, 57%, 50%);
+    width: 33.1%;
+    height: 200px;    
+}
+.botright {
+    display: inline-block;
+    background: hsl(215, 57%, 50%);
+    width: 33.13%;
+    height: 200px; 
+    text-align: right;  
+}
+
+
+.bottom1 {
+    display: inline-block;
+    background: hsl(215, 3%, 85%);
+    width: 24.75%;
+    height: 50px;
+    text-align: left;
+   }
+.bottom2 {    
+    display: inline-block;
+    background: hsl(215, 3%, 85%);
+    width: 24.75%;
+    height: 50px;  
+    text-align: right;  
+}
+.bottom3 {
+    display: inline-block;
+    background: hsl(215, 3%, 85%);
+    width: 24.75%;
+    height: 50px; 
+    text-align: left;  
+}
+
+.bottom4 {
+    display: inline-block;
+    background: hsl(215, 3%, 85%);
+    width: 24.75%;
+    height: 50px;   
+    text-align: right;
+}
